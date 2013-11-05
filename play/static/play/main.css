@@ -1,0 +1,81 @@
+
+
+body { 
+     
+     background-image:url('img.jpg') ; 
+     background-repeat:no-repeat; 
+     background-size: 100%;
+}
+
+.click {
+  
+    position: absolute;
+    left: 470px;
+    top: 128px;
+    height: 42px;
+    width: 90px;
+    box-shadow: 0px 0px 6px rgb(248, 185, 183);
+}
+
+
+.click:hover, .click:focus {
+    background: #d3e0ef;
+    
+    text-decoration: none;
+
+}
+.input {
+    border: 1px solid #006;
+    background: #ffc;
+}
+
+.about-page{
+    top: 5px;
+    left: 470px;
+}
+
+h1 {
+font: 28pt Verdana, Geneva, Arial, Helvetica,sans-serif;
+font-weight: bold; 
+color: white; 
+line-height: 30pt;
+ 
+}
+
+.home-about {
+    position: absolute;
+    top: 5px;
+    left:10px;
+
+
+.site-description {
+    position: absolute;
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    top: 340px;
+    left: 720px;
+}
+
+
+.created {
+    position: absolute;
+    bottom: 3px;
+    font-size: 12px;
+    text-decoration: none;
+}
+p {
+    position: absolute;
+    color: rgb(255, 255, 255);
+    bottom: 20px;
+    
+}
+p {
+    margin: 0px 0px 10px;
+}
+
+a{
+     color: white;
+}
+
+
+

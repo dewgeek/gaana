@@ -1,19 +1,21 @@
 <!DOCTYPE html>
+{% load static %}
 
 <html>
 
     <head>
+        <link rel="stylesheet" type="text/css" href="{% static 'play/main.css' %}" />
+
         <title>gaana app</title>
     </head>
 
     <body>
+     
+        <p> </p> 
+        <form action="/play/home/" >
+             <input type="submit" value="home" class="home-about">
+        </form> <br/>
         
-        <br/>
-        
-        <h1>Hello, you are in the about page.</h1>
-        <p> this is test app, so dont expect much here.</p> 
-        
-        <a href="/play/home/">Home</a><br/>
         
     </body>
 

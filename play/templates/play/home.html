@@ -1,21 +1,31 @@
 <!DOCTYPE html>
+{% load static %}
+
 
 <html>
 
     <head>
+        <link rel="stylesheet" type="text/css" href="{% static 'play/main.css' %}" />
+
         <title>gaana app</title>
     </head>
 
     <body>
         
-        <br/>
-        
-        <h1>Hello, you are here </h1> 
-        
-        
+       
+               <small class="site-description"> sample
+               </small>
 
-        <a href="/play/about/">About</a><br/> 
+        </h1>
+  
+        <form action="/play/fb/" >
+             <input type="submit" value="play" class="click">
+        </form> <br/>
+
+        <a href="/play/about/"><button>About</button></a>
         
+        <p class="created"> Made by <a href="https://www.facebook.com/exploretheweb">anur@g</a></p>
+
     </body>
 
 </html>
