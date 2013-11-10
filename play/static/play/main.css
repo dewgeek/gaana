@@ -8,7 +8,7 @@ body {
 }
 
 .click {
-  
+    font: sans serif;
     position: absolute;
     left: 470px;
     top: 128px;
@@ -34,19 +34,23 @@ body {
     left: 470px;
 }
 
-h1 {
-font: 28pt Verdana, Geneva, Arial, Helvetica,sans-serif;
-font-weight: bold; 
-color: white; 
-line-height: 30pt;
- 
+#over {
+    top: 50px;
+    left: 450px;
 }
 
 .home-about {
     position: absolute;
     top: 5px;
     left:10px;
+}
 
+#about-text{
+    font: 12pt Verdana, Geneva, Arial, Helvetica,sans-serif;
+    position: absolute;
+    top: 120px;
+    left: 300px;
+}
 
 .site-description {
     position: absolute;
