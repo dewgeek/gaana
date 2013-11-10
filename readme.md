@@ -1,8 +1,7 @@
 
 gaana
 =====
-
-* status : working 
+ 
 
 ## specification ##
 
