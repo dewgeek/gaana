@@ -1,24 +1,27 @@
 <!DOCTYPE html>
+
 {% load static %}
 
 <html>
 
     <head>
         <link rel="stylesheet" type="text/css" href="{% static 'play/main.css' %}" />
-
         <title>gaana app</title>
     </head>
 
     <body>
-     
-        <p id="about-text"> Tired of surfing music sites for song(s) of your taste?<br/> <br/> Gaana will 
-        give you the songs of your taste. Sit back and enjoy.  :) </p>
- 
+        
+        <br/>
+        
+        <p id="error">Sorry, the selected entry was not found in Gaana.com <p> 
+        
+        
+
         <form action="/play/home/" >
              <input type="submit" value="home" class="home-about">
-        </form> <br/>
+        </form> 
         
-        <p class="created"> Made by <a href="https://www.facebook.com/exploretheweb">anur@g</a></p>
+
     </body>
 
 </html>
