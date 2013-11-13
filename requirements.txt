@@ -1,0 +1,7 @@
+
+#these are required for music-ls
+
+
+fbconsole
+google==1.05
+selenium
