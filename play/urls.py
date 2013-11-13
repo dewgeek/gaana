@@ -4,6 +4,6 @@ from play import views
 urlpatterns = patterns('',
     url(r'^home/', views.home, name='home'),
     url(r'^about/', views.about, name='about'),
-    url(r'^music/', views.fb, name='fb'),
+    url(r'^music/', views.music, name='music'),
 
 )
