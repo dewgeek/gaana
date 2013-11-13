@@ -35,8 +35,15 @@ body {
 }
 
 #over {
-    top: 50px;
-    left: 450px;
+    top:80px;
+    left: 380px;
+}
+
+.addthis_toolbox{
+    position: absolute;
+    top: 135px;
+    left: 400px;
+    bottom: 20px;
 }
 
 .home-about {
@@ -45,11 +52,18 @@ body {
     left:10px;
 }
 
-#about-text{
-    font: 12pt Verdana, Geneva, Arial, Helvetica,sans-serif;
+#about-title{
+    font: 17pt Verdana, Geneva, Arial, Helvetica,sans-serif;
     position: absolute;
-    top: 120px;
-    left: 300px;
+    top: 100px;
+    left: 200px;
+}
+
+#about-des{
+    font: 13pt;
+    position: absolute;
+    top: 145px;
+    left: 240px;
 }
 
 .site-description {
@@ -63,10 +77,13 @@ body {
 
 .created {
     position: absolute;
+    left: 490px;
     bottom: 3px;
     font-size: 12px;
     text-decoration: none;
 }
+
+
 p {
     position: absolute;
     color: rgb(255, 255, 255);
