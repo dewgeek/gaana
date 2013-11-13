@@ -1,7 +1,7 @@
 
-#these are required for music-ls
+#these are required for gaana
 
 
 fbconsole
 google==1.05
-selenium
+webbrowser
