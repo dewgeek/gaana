@@ -5,7 +5,7 @@ from django.conf.urls import patterns, include, url
 # admin.autodiscover()
 
 urlpatterns = patterns('',
-    url(r'^play/', include('play.urls')),
+    url(r'^', include('play.urls')),
     
 
     # Uncomment the admin/doc line below to enable admin documentation:
