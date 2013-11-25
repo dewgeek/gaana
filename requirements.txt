@@ -1,7 +1,7 @@
 
 #these are required for gaana
 
-
+django
 fbconsole
 google==1.05
 
