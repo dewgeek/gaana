@@ -7,3 +7,6 @@ urlpatterns = patterns('',
     url(r'^music/', views.music, name='music'),
 
 )
+    urlpatterns += patterns('',
+        (r'^static/(?P<path>.*)$', 'django.views.static.serve', {'document_root': settings.STATIC_ROOT}),
+    )
